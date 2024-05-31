@@ -22,12 +22,6 @@ const asideClasses = computed(() => ({
       <strong>BIG</strong>
       Movie
     </span>
-
-    <ul>
-      <li>
-        <a class="underline mr-6 api" href="/movieapi">Más películas</a>
-      </li>
-    </ul>
   </nav>
   <!-- Responsive -->
   <nav

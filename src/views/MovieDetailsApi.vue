@@ -10,7 +10,7 @@ const movie = ref({});
 
 onMounted(async () => {
   try {
-    const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+    const apiKey = "6ee28a0777aeacf7a29f1125c45df46e";
     const movie_id = route?.params.id;
     const response = await fetch(
       `https://api.themoviedb.org/3/movie/${movie_id}?api_key=${apiKey}&language=es-ES`

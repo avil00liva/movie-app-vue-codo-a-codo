@@ -9,7 +9,7 @@ const movies = ref([]);
 
 onMounted(async () => {
   try {
-    const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+    const apiKey = "6ee28a0777aeacf7a29f1125c45df46e";
     const response = await fetch(
       `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=es-ES&page=1`
     );
@@ -38,7 +38,7 @@ onMounted(async () => {
       <h2 class="text-white text-2xl font-semibold mt-8">
         Películas más vistas de la semana
       </h2>
-      <MoviesUIApi :movies="movies.slice(4)" />
+      <MoviesUIApi :movies="movies" />
     </section>
     <Footer />
   </main>

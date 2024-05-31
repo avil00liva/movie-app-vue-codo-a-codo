@@ -30,7 +30,7 @@ const getImagePath = (imgName) => {
         {{ movie.title }} ({{ movie.release_date }})
       </h1>
       <p
-        class="text-base md:text-lg lg:text-xl font-normal lg:w-4/6 h-[120px] overflow-scroll mb-10 lg:mb-4"
+        class="text-base md:text-lg lg:text-xl font-normal lg:w-4/6 h-[120px] overflow-auto mb-10 lg:mb-4"
       >
         {{ movie.overview }}
       </p>
