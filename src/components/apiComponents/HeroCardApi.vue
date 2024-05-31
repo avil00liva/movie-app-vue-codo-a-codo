@@ -35,7 +35,7 @@ const getImagePath = (imgName) => {
         {{ movie.overview }}
       </p>
       <RouterLink
-        :to="`/more-movies/${movie.id}`"
+        :to="`/movieapi/${movie.id}`"
         class="px-8 py-5 bg-purple-800 transition-colors hover:bg-purple-950 rounded-lg"
       >
         Ver ahora

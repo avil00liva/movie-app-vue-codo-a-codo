@@ -24,11 +24,11 @@ const routes = [
     component: Login,
   },
   {
-    path: "/more-movies",
+    path: "/movieapi",
     component: MoreMovies,
   },
   {
-    path: "/more-movies/:id",
+    path: "/movieapi/:id",
     component: MovieDetailsApi,
   },
 ];

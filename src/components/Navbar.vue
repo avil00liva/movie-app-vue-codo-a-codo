@@ -25,7 +25,7 @@ const asideClasses = computed(() => ({
 
     <ul>
       <li>
-        <a class="underline mr-6 api" href="/more-movies">Más películas</a>
+        <a class="underline mr-6 api" href="/movieapi">Más películas</a>
       </li>
     </ul>
   </nav>
@@ -73,7 +73,7 @@ const asideClasses = computed(() => ({
             <RouterLink class="underline" to="/login">Únete</RouterLink>
           </li>
         </ul>
-        <RouterLink class="underline api" to="/more-movies"
+        <RouterLink class="underline api" to="/movieapi"
           >Más películas</RouterLink
         >
       </aside>
